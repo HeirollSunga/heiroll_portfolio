@@ -55,13 +55,5 @@ export const projects: Project[] = [
     technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
     liveDemo: 'https://file-convert-pro.vercel.app/',
     type: 'Web Utility / File Conversion',
-  },{
-    id: 'Heiroll Sunga Portfolio',
-    title: 'Heiroll Sunga Portfolio',
-    description:
-      'My personal portfolio website showcasing my projects and skills.',
-    technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
-    liveDemo: 'https://heiroll-portfolio.vercel.app/',
-    type: 'Web Application / Personal Portfolio',
   },
 ]
