@@ -19,7 +19,7 @@ const EGG_MESSAGES: Record<string, string> = {
 }
 
 export function RoomScene() {
-  const { openView, openAbout, reducedMotion, showToast, music } = useRoom()
+  const { openView, openAbout, openPoster, reducedMotion, showToast, music } = useRoom()
 
   const handleHotspot = (h: HotspotDef) => {
     switch (h.action) {
@@ -241,7 +241,7 @@ export function RoomScene() {
       >
         <div className="mb-3 border-b-2 border-dashed border-border pb-2">
           <p className="font-pixel text-[9px] text-primary">Welcome to my Room</p>
-          <p className="mt-1 text-[10px] text-muted-foreground">This is Heiroll Sunga's Portfolio, Click around and Interact with the Room or Select a destination</p>
+          <p className="mt-1 text-[10px] text-muted-foreground">This is Heiroll Sunga's Portfolio Click around and Interact with the Room or Select a destination</p>
         </div>
         <div className="grid grid-cols-2 gap-2 lg:grid-cols-1">
           {[
@@ -249,6 +249,7 @@ export function RoomScene() {
             ['experience', 'EXPERIENCE'],
             ['resume', 'RESUME'],
             ['music', 'MUSIC'],
+            ['posters', 'POSTERS'],
             ['about', 'ABOUT'],
             ['contact', 'CONTACT'],
           ].map(([view, label]) => (
@@ -256,7 +257,11 @@ export function RoomScene() {
               key={view}
               type="button"
               onClick={() =>
-                view === 'about' ? openAbout() : openView(view as OverlayKey)
+                view === 'about'
+                  ? openAbout()
+                  : view === 'posters'
+                    ? openPoster(0)
+                    : openView(view as OverlayKey)
               }
               className="border-2 border-border bg-secondary/60 px-2 py-2 text-left font-pixel text-[9px] text-foreground transition-colors hover:border-primary hover:bg-primary/15 hover:text-primary"
             >

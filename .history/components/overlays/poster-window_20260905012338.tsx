@@ -45,7 +45,7 @@ export function PosterWindow() {
   return (
     <OverlayFrame open={open} onClose={close} title={`frame-${idx + 1}`} accent="var(--accent-poster)">
       <div className="mx-auto flex max-w-3xl flex-col gap-6 md:flex-row md:items-start">
-        <div className="pixel-border relative mx-auto aspect-3/4 w-56 shrink-0 overflow-hidden bg-muted">
+        <div className="pixel-border relative mx-auto aspect-[3/4] w-56 shrink-0 overflow-hidden bg-muted">
           {src ? (
             <Image
               src={src || "/placeholder.svg"}
@@ -70,7 +70,7 @@ export function PosterWindow() {
           )}
 
           <div className="mt-5 rounded-none border-2 border-dashed border-border p-4">
-            <h3 className="font-display text-[11px] tracking-wider text-(--accent-poster)">
+            <h3 className="font-display text-[11px] tracking-wider text-[var(--accent-poster)]">
               MAKE IT YOURS
             </h3>
             <p className="mt-2 text-[11px] leading-relaxed text-muted-foreground">
@@ -82,7 +82,7 @@ export function PosterWindow() {
             <div className="mt-4 flex flex-wrap gap-2">
               <button
                 onClick={() => fileRef.current?.click()}
-                className="pixel-border inline-flex items-center gap-2 bg-(--accent-poster) px-3 py-2 text-[10px] text-[#1a1533] transition-transform hover:-translate-y-0.5"
+                className="pixel-border inline-flex items-center gap-2 bg-[var(--accent-poster)] px-3 py-2 text-[10px] text-[#1a1533] transition-transform hover:-translate-y-0.5"
               >
                 <Upload className="h-3.5 w-3.5" />
                 UPLOAD IMAGE

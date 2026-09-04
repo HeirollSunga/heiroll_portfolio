@@ -241,7 +241,7 @@ export function RoomScene() {
       >
         <div className="mb-3 border-b-2 border-dashed border-border pb-2">
           <p className="font-pixel text-[9px] text-primary">Welcome to my Room</p>
-          <p className="mt-1 text-[10px] text-muted-foreground">This is Heiroll Sunga's Portfolio, Click around and Interact with the Room or Select a destination</p>
+          <p className="mt-1 text-[10px] text-muted-foreground">This is Heiroll Sunga's Portfolio Click around and Interact with the Room or Select a destination</p>
         </div>
         <div className="grid grid-cols-2 gap-2 lg:grid-cols-1">
           {[
@@ -255,9 +255,7 @@ export function RoomScene() {
             <button
               key={view}
               type="button"
-              onClick={() =>
-                view === 'about' ? openAbout() : openView(view as OverlayKey)
-              }
+              onClick={() => (view === 'about' ? openAbout() : openView(view as OverlayKey))}
               className="border-2 border-border bg-secondary/60 px-2 py-2 text-left font-pixel text-[9px] text-foreground transition-colors hover:border-primary hover:bg-primary/15 hover:text-primary"
             >
               {label}
