@@ -58,7 +58,7 @@ export function ResumeWindow() {
               <div className="flex flex-wrap items-baseline justify-between gap-x-2">
                 <div>
                   <h4 className="text-xs text-foreground">{ed.degree}</h4>
-                  <p className="text-[11px] text-(--accent-monitor)">{ed.school}</p>
+                  <p className="text-[11px] text-[var(--accent-monitor)]">{ed.school}</p>
                 </div>
                 <span className="text-[10px] text-muted-foreground">{ed.period}</span>
               </div>
@@ -95,7 +95,7 @@ export function ResumeWindow() {
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <div className="mt-6">
-      <h3 className="mb-3 font-display text-[11px] tracking-wider text-(--accent-paper)">{title}</h3>
+      <h3 className="mb-3 font-display text-[11px] tracking-wider text-[var(--accent-paper)]">{title}</h3>
       {children}
     </div>
   )

@@ -20,9 +20,9 @@ const pressStart = Press_Start_2P({
 })
 
 export const metadata: Metadata = {
-  title: "Heiroll Sunga's Portfolio",
+  title: "Player One's Room — Pixel Portfolio",
   description:
-    "A Interactive ortfolio. Explore the room to discover projects, resume, music, and more about Heiroll.",
+    "A playable pixel-art bedroom portfolio. Explore the room at 1 AM to discover projects, resume, music, and more.",
   generator: 'v0.app',
 }
 

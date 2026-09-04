@@ -15,7 +15,7 @@ function Portfolio() {
   const { entered, activeView, toast } = useRoom()
 
   return (
-    <main className="min-h-dvh bg-background">
+    <main className="min-h-[100dvh] bg-background">
       {!entered && <EnterScreen />}
       {entered && <RoomScene />}
       {activeView === 'about' && <AboutWindow />}
