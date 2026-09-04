@@ -1,0 +1,90 @@
+HEIROLL IANE M. SUNGA
+Software Engineer & Data Enthusiast
+General Trias, Cavite | heirollsunga24@gmail.com
+www.linkedin.com/in/heirollsunga | heiroll-portfolio.vercel.app
+
+--------------------------------------------------
+SUMMARY
+--------------------------------------------------
+Computer Science graduate and aspiring software engineer and data
+analyst with experience in frontend development, data visualization,
+and web-based systems. Passionate about building responsive
+applications, solving technical problems, and turning data into
+meaningful insights.
+
+--------------------------------------------------
+SKILLS
+--------------------------------------------------
+JavaScript, Java (OOP), PHP, SQL, Python, XML, React, Next.js,
+Node.js, HTML, CSS, PostgreSQL, Supabase, Vercel, Tableau,
+Power BI, Looker, Git, GitHub, XAMPP, Cisco Packet Tracer,
+VS Code, Notion, ChatGPT, Claude, GitHub Copilot, Google Gemini
+
+--------------------------------------------------
+EXPERIENCE
+--------------------------------------------------
+Software Engineer Intern — Microgenesis Business Systems (Jun 2025 - Jul 2025)
+ - Engineered and optimized responsive UIs for the Mgenius LMS using HTML,
+   CSS, JavaScript, and PHP.
+ - Resolved over 25 frontend tickets and feature enhancements, including
+   mobile-responsive redesigns for Admin Dashboard, Daily Visits, and
+   Group Reports.
+ - Managed local development, version control, and issue tracking using
+   XAMPP, Git, and Notion while deploying critical fixes to staging.
+ - Achieved a 4.0/4.0 "Outstanding" rating by delivering high-quality UI
+   solutions and independently resolving frontend/backend integration issues.
+
+English Test Assessor — GNGN Inc. (Jul 2022 - Sep 2022)
+ - Evaluated 4,817 single-question English proficiency tests for Japanese
+   students, scoring grammar, vocabulary, and comprehension.
+ - Maintained accurate and consistent evaluations while following
+   standardized scoring guidelines.
+ - Demonstrated strong attention to detail and reliability while processing
+   high volumes of data independently in a remote environment.
+
+--------------------------------------------------
+EDUCATION
+--------------------------------------------------
+B.S. Computer Science — Emilio Aguinaldo College (Jul 2026)
+
+Capstone Project:
+ - Spearheaded the development of an automated Web-Based Room Scheduling
+   System using React, Next.js, Node.js, and PostgreSQL.
+ - Integrated a Constraint Satisfaction Problem (CSP) algorithm for
+   automated conflict detection and WebSockets for real-time availability.
+ - Served as Project Lead, technical writer, UI/UX co-designer, and QA tester.
+
+Data Visualization & Analysis:
+ - Created visual charts and data dashboards using Tableau, Power BI,
+   and Looker.
+
+--------------------------------------------------
+CERTIFICATIONS
+--------------------------------------------------
+Google Data Analytics Professional Certificate
+
+--------------------------------------------------
+PROJECTS
+--------------------------------------------------
+Automated Room Scheduling System
+ - Automated web-based facility management application with CSP-based
+   conflict-free scheduling and WebSocket-powered real-time availability.
+ - React, Next.js, Node.js, PostgreSQL, WebSockets
+
+Data Analytics Dashboards
+ - Data visualizations and dashboards for processing and displaying
+   complex business metrics.
+ - Power BI, Tableau, Looker, Google Sheets
+
+Velvet & Film PhotoBooth
+ - Boutique photobooth platform focused on film-inspired keepsakes.
+ - React, Vite, Tailwind CSS, Zustand
+
+File Convert Pro
+ - Fast, private, browser-based file conversion tool supporting documents,
+   images, audio, and video.
+ - Next.js, React, TypeScript, Tailwind CSS
+
+--------------------------------------------------
+Replace this file with your own resume (PDF or TXT) at
+/public/assets/resume/ and update resumeUrl in lib/data/profile.ts
