@@ -60,7 +60,7 @@ export function EnterScreen() {
           </h1>
           <p className="max-w-xs text-pretty text-sm leading-relaxed text-muted-foreground">
             It&apos;s late. The city is asleep, the monitors are still glowing.
-            Come in and look around - everything here is clickable.
+            Come in and look around — everything here is clickable.
           </p>
         </div>
 
